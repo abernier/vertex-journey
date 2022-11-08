@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://abernier.github.io/three-rendering-pipeline/static/css/main.93a0497a.css",
+    "main.js": "https://abernier.github.io/three-rendering-pipeline/static/js/main.cd0f0568.js",
+    "index.html": "https://abernier.github.io/three-rendering-pipeline/index.html",
+    "main.93a0497a.css.map": "https://abernier.github.io/three-rendering-pipeline/static/css/main.93a0497a.css.map",
+    "main.cd0f0568.js.map": "https://abernier.github.io/three-rendering-pipeline/static/js/main.cd0f0568.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a0497a.css",
+    "static/js/main.cd0f0568.js"
+  ]
+}
