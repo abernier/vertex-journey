@@ -4,7 +4,7 @@
 
 > 🧳 The complete journey of a vertex, going from model coordinates to screen coordinates (in pixels) — or how to convert a point to screen
 
-NB: our vertex is 🟠 `point` our model is 🟪 `cube`
+NB: our vertex (aka `point`) is represented by a 🟠 `sphere` added to our model 🟪 `cube`
 
 ![rendering-pipeline-v3](https://user-images.githubusercontent.com/76580/200901612-e5fd61bd-62ed-4d9a-91c0-e7e2b7d5e18b.png)
 original: https://www.realtimerendering.com/blog/tag/pipeline/
