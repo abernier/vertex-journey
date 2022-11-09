@@ -2,7 +2,7 @@
 
 [Demo](https://abernier.github.io/vertex-journey)
 
-> 🧳 The journey of a vertex, from model coordinates to screen coordinates (in pixels) — or how to convert a point to screen
+> 🧳 The complete journey of a vertex, going from model coordinates to screen coordinates (in pixels) — or how to convert a point to screen
 
 NB: our vertex is 🟠 `point` our model is 🟪 `cube`
 
