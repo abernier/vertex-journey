@@ -58,7 +58,6 @@ console.log("clip coordinates", point);
 
 const W = new THREE.Matrix4();
 const { x: WW, y: WH } = renderer.getSize(new THREE.Vector2());
-// prettier-ignore
 W.set(
   WW / 2, 0, 0, WW / 2,
   0, -WH / 2, 0, WH / 2,
