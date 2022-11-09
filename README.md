@@ -1,6 +1,78 @@
-[CodeSandbox](https://codesandbox.io/s/github/abernier/tpl-three)
+# Vertex journey
 
-# INSTALL
+> 🧳 The journey of a vertex, from model coordinates to screen coordinates (in pixels) — or how to convert a point to screen
+
+NB: our vertex is 🟠 `point` our model is 🟪 `cube`
+
+```js
+/*
+ Our cube:
+  - is 10x10x10 long
+  - is positionned at (0, 5, 0) in the world
+
+ Our sphere is positioned at (-5, 5 5) in the cube basis (ie: front-top-left corner)
+*/
+
+// cube.position.y = 5
+// cube.add(sphere)
+// sphere.position.set(-5, 5, 5)
+
+const point = sphere.position.clone(); // (-5, 5, 5) aka relative to cube
+console.log("point=", point);
+
+//
+// A: Model -> World
+//
+
+const M = cube.matrixWorld;
+console.log("Model (World) Matrix", M);
+point.applyMatrix4(M);
+console.log("world-space point=", point);
+
+//
+// B: World -> Camera (aka View)
+//
+
+const V = camera.matrixWorldInverse;
+console.log("View Matrix", V);
+point.applyMatrix4(V);
+console.log("view-space point=", point);
+
+//
+// C: Camera -> NDC
+//
+
+const P = camera.projectionMatrix;
+console.log("Projection Matrix", P);
+point.applyMatrix4(P);
+console.log("clip coordinates", point);
+
+//
+// D: NDC -> Screen
+//
+
+const W = new THREE.Matrix4();
+const { x: WW, y: WH } = renderer.getSize(new THREE.Vector2());
+// prettier-ignore
+W.set(
+  WW / 2, 0, 0, WW / 2,
+  0, -WH / 2, 0, WH / 2,
+  0, 0, 0.5, 0.5,
+  0, 0, 0, 1
+);
+console.log("Window Matrix", W);
+point.applyMatrix4(W);
+console.log("window coordinates", point);
+```
+
+More conceptually, this is equivalent to:
+
+## Colophon
+
+- https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-naming.html
+- https://threejs.org/docs/#api/en/math/Matrix4
+
+## INSTALL
 
 Pre-requisites:
 
@@ -10,19 +82,14 @@ Pre-requisites:
 $ npm ci
 ```
 
-# Dev
+## Dev
 
 ```sh
 $ npm start
 ```
 
-# Build
+## Build
 
 ```sh
 $ npm run build
 ```
-
-A Github Actions [deploy](.github/workflows/deploy.yml) task will build and deploy to `gh-pages` branch when pushing on `main`. Resulting app will be available at: https://{username}.github.io/{reponame}
-
-NB: Make sure you have Github Pages enabled in your [project's Settings](/../../settings/pages)
-<img width="748" alt="197813061-d94a75e6-8525-402f-8786-ec9f0bb04b13" src="https://user-images.githubusercontent.com/76580/197829753-9ac58012-f487-4456-b810-e8798732ec24.png">
