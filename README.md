@@ -6,7 +6,7 @@
 
 NB: our vertex is 🟠 `point` our model is 🟪 `cube`
 
-![rendering-pipeline-v2](https://user-images.githubusercontent.com/76580/200899215-0b4f056f-43d7-4b31-97e6-2626d2c2b591.png)
+![rendering-pipeline-v3](https://user-images.githubusercontent.com/76580/200901612-e5fd61bd-62ed-4d9a-91c0-e7e2b7d5e18b.png)
 
 ```js
 /*
