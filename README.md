@@ -1,8 +1,12 @@
 # Vertex journey
 
+[Demo](https://abernier.github.io/vertex-journey)
+
 > 🧳 The journey of a vertex, from model coordinates to screen coordinates (in pixels) — or how to convert a point to screen
 
 NB: our vertex is 🟠 `point` our model is 🟪 `cube`
+
+![rendering-pipeline-v2](https://user-images.githubusercontent.com/76580/200899215-0b4f056f-43d7-4b31-97e6-2626d2c2b591.png)
 
 ```js
 /*
@@ -66,6 +70,9 @@ console.log("window coordinates", point);
 ```
 
 More conceptually, this is equivalent to:
+
+![Untitled (4)](https://user-images.githubusercontent.com/76580/200899430-209ec26e-42aa-4963-9a54-fbec17db66e9.png)
+
 
 ## Colophon
 
