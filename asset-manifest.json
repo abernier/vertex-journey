@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://abernier.github.io/three-rendering-pipeline/static/css/main.93a0497a.css",
-    "main.js": "https://abernier.github.io/three-rendering-pipeline/static/js/main.cd0f0568.js",
+    "main.css": "https://abernier.github.io/three-rendering-pipeline/static/css/main.b3b3f885.css",
+    "main.js": "https://abernier.github.io/three-rendering-pipeline/static/js/main.7f480993.js",
     "index.html": "https://abernier.github.io/three-rendering-pipeline/index.html",
-    "main.93a0497a.css.map": "https://abernier.github.io/three-rendering-pipeline/static/css/main.93a0497a.css.map",
-    "main.cd0f0568.js.map": "https://abernier.github.io/three-rendering-pipeline/static/js/main.cd0f0568.js.map"
+    "main.b3b3f885.css.map": "https://abernier.github.io/three-rendering-pipeline/static/css/main.b3b3f885.css.map",
+    "main.7f480993.js.map": "https://abernier.github.io/three-rendering-pipeline/static/js/main.7f480993.js.map"
   },
   "entrypoints": [
-    "static/css/main.93a0497a.css",
-    "static/js/main.cd0f0568.js"
+    "static/css/main.b3b3f885.css",
+    "static/js/main.7f480993.js"
   ]
 }
