@@ -71,8 +71,7 @@ console.log("window coordinates", point);
 
 More conceptually, this is equivalent to:
 
-![Untitled (4)](https://user-images.githubusercontent.com/76580/200899430-209ec26e-42aa-4963-9a54-fbec17db66e9.png)
-
+[![Untitled (4)](https://user-images.githubusercontent.com/76580/200899430-209ec26e-42aa-4963-9a54-fbec17db66e9.png)](https://keasigmadelta.com/blog/warp3d-nova-3d-at-last-part-1/)
 
 ## Colophon
 
