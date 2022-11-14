@@ -77,6 +77,7 @@ More conceptually, this is equivalent to:
 
 - https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-naming.html
 - https://threejs.org/docs/#api/en/math/Matrix4
+- https://jsantell.com/model-view-projection/
 
 ## INSTALL
 
