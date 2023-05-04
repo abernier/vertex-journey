@@ -80,6 +80,7 @@ More conceptually, this is equivalent to:
 - https://jsantell.com/model-view-projection/
 - ndc.z is not linear: https://discord.com/channels/685241246557667386/685241247233081362/1103672595280302131
 
+  <img width="737" alt="image" src="https://user-images.githubusercontent.com/76580/236230266-27546c2e-b0c2-4f9d-9c21-d7184fb4871e.png">
   <a href="https://docs.google.com/spreadsheets/d/1V2rS8KPMnqZwhLb2yxFPUC4jFQoRVuNim0qjREQFR7o/edit#gid=3264016"><img height="150" alt="image" src="https://user-images.githubusercontent.com/76580/236227304-156e535e-c0e4-4cff-98ad-63027db0317f.png"></a>
 
 
