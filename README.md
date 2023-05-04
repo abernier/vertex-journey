@@ -78,6 +78,10 @@ More conceptually, this is equivalent to:
 - https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-naming.html
 - https://threejs.org/docs/#api/en/math/Matrix4
 - https://jsantell.com/model-view-projection/
+- ndc.z is not linear: https://discord.com/channels/685241246557667386/685241247233081362/1103672595280302131
+
+  <a href="https://docs.google.com/spreadsheets/d/1V2rS8KPMnqZwhLb2yxFPUC4jFQoRVuNim0qjREQFR7o/edit#gid=3264016"><img height="150" alt="image" src="https://user-images.githubusercontent.com/76580/236227304-156e535e-c0e4-4cff-98ad-63027db0317f.png"></a>
+
 
 ## INSTALL
 
